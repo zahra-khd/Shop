@@ -3,7 +3,7 @@ import { useState } from "react";
 
 export const Activities = () => {
 
-  const [clicked , setClicked] = useState(undefined);
+  const [clicked , setClicked] = useState("orders");
 
   const tabs = [
     {
