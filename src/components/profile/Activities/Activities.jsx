@@ -1,8 +1,10 @@
 import { useState } from "react";
+import {useNavigate} from "react-router-dom";
+import routesUrl from "../../../routes/routesUrl";
 
 
 export const Activities = () => {
-
+  const navigate = useNavigate()
   const [clicked , setClicked] = useState("orders");
 
   const tabs = [
@@ -44,7 +46,10 @@ export const Activities = () => {
   ];
 
   function handleClickOnTabs(tab) {
-    setClicked(tab.route)
+
+    setClicked(tab.route);
+    navigate(`${routesUrl.profile}/${tab.route}`)
+
   }
 
   return (
