@@ -34,24 +34,6 @@
 .cart {
   transform: rotateY(3.142rad);
 }
-.style-section {
-  border-radius: 10px;
-  border:solid 1px rgb(214, 214, 214) ;
-}
-.text-section-start {
-  display: flex;
-  flex-direction: column;
-  text-align: start;
-}
-.text-hover:hover {
-  background: #e2e2e2;
-}
-.border-top-orders {
-  border-top: solid 2px rgb(226, 225, 225);
-}
-.border-top-activities {
-  border-top: solid 1px rgb(226, 225, 225);
-}
 .header {
   position: fixed;
   top: 0;
@@ -60,11 +42,4 @@
   background-color: #fff;
   height: 90px;
   padding: 10px;
-}
-.text-color-warning{
-  color: rgb(255, 165, 46);
- 
-}
-.text-check-id{
-font-size: small;
 }
