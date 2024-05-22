@@ -14,7 +14,6 @@ export const Profile = () => {
   function goToProfileMe() {
     //todo send user to profile
     navigate(routesUrl.profile)
-    console.log("go to profile");
   }
 
   
@@ -22,7 +21,7 @@ export const Profile = () => {
     <div className="dropdown">
       <button
         onClick={openProfileDropdown}
-        className="btn btn-white dropdown-toggle"
+        className="btn btn-white"
         type="button"
       >
         <i className="bi bi-person icon-size"></i>

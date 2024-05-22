@@ -41,8 +41,8 @@ export const Profile = () => {
           <WalletDj />
           <Activities />
         </section>
-        <div className="col-lg-9 col-md-12">
-          <section className="style-section text-section-start px-3 py-2 mt-3">
+        <div className="col-lg-9 col-md-12 p-0">
+          <section className="me-3">
             {mainSection()}
           </section>
         </div>
