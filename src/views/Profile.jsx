@@ -9,6 +9,7 @@ import { GiftCard } from "../components/profile/Activities/GiftCard";
 import { RecentVisits } from "../components/profile/Activities/RecentVisits";
 import { ExitProfile } from "../components/profile/Activities/ExitProfile";
 import { ProfileMe } from "../components/profile/Activities/ProfileMe";
+import { Messages } from "../components/profile/Activities/Messages";
 
 export const Profile = () => {
   const location = useLocation();
@@ -26,7 +27,9 @@ export const Profile = () => {
       case routesUrl.profileExitProfile:
         return <ExitProfile />;
       case routesUrl.profileProfileMe:
-        return<ProfileMe/>
+        return<ProfileMe/>;
+      case routesUrl.profileMessages:
+        return <Messages/>;
 
       default:
         return <MyOrders />;
