@@ -6,7 +6,8 @@ import UseOutsideClick from "../../utils/hooks/UseOutsideClick";
 export const Profile = () => {
   const navigate = useNavigate();
   const [showDropdown, setShowDropdown] = useState(false);
-  const dropdownRef = useRef(null);
+
+  const dropdownRef = useRef(undefined);
 
   function openProfileDropdown() {
     setShowDropdown(true);

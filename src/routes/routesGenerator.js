@@ -25,9 +25,7 @@ function RoutesGenerator() {
           <Route path={routesUrl.dashboard} element={<Dashboard />} />
             <Route path={routesUrl.profile} element={<Profile />}>
               <Route path={routesUrl.profileComment} element={<Comment />} />
-              <Route path={routesUrl.profileMyOrders} element={<MyOrders />} >
-                  <Route path={routesUrl.profileOrderOrderHistory} element={<OrderHistory />} />
-              </Route>
+              <Route path={routesUrl.profileMyOrders} element={<MyOrders />} />
               <Route path={routesUrl.profileExitProfile} element={<ExitProfile />} />
               <Route path={routesUrl.profileGiftCard} element={<GiftCard/>} />
               <Route path={routesUrl.profileMessages} element={<Messages/>} />

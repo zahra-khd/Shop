@@ -1,47 +1,48 @@
+//react
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+
+// asset
 import returnOrder from "../../../assets/images/returnOrder.png";
 import currentOrder from "../../../assets/images/currentOrder.png";
 import deliveryOrder from "../../../assets/images/deliveryOrder.png";
-import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+
+// routes
 import routesUrl from "../../../routes/routesUrl"
 
 export const OrderStatus = () => {
-  
-  const navigate=useNavigate()
-
-  const[clickedOnOrder,setClickedOnOrder]=useState('')
-
-
-
-  function handleClickOnOrder() {
-    
-    setClickedOnOrder(clickedOnOrder);
-    navigate(`${routesUrl.profile}/${orderStatusMe.route}`)
-  }
-
+  const navigate = useNavigate()
 
   const orderStatusMe = [
     {
       Image: <img src={returnOrder} alt="returnOrder" className="img-fluid" />,
       title: "0سفارش ",
       description: "مرجوع شده",
-      route: "OrderHistory"
+      query: "returned"
     },
     {
       Image: <img src={currentOrder} alt="returnOrder" className="img-fluid" />,
       title: "0سفارش ",
       description: "جاری",
-      route:'OrderHistory'
+      query:'in_progress'
     },
     {
       Image: (
         <img src={deliveryOrder} alt="returnOrder" className="img-fluid" />
       ),
-      title: "0سفارش ",
+      title: "0سفارش",
       description: "تحویل شده",
-      route:'OrderHistory'
+      query:'sent'
     },
   ];
+
+  const[clickedOnOrder,setClickedOnOrder]=useState('')
+
+  function handleClickOnOrder(status) {
+    setClickedOnOrder(clickedOnOrder);
+    navigate(`${routesUrl.profileMyOrders}?activeTab=${status.query}`);
+  }
+
 
   return (
     <div className=" d-flex align-items-center">
