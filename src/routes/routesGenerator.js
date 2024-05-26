@@ -13,7 +13,7 @@ import { Messages } from "../components/profile/Activities/Messages";
 import { ProfileMe } from "../components/profile/Activities/ProfileMe";
 import { RecentVisits } from "../components/profile/Activities/RecentVisits";
 import { ExitProfile } from "../components/profile/Activities/ExitProfile";
-import { OrderHistory } from "../components/profile/orders/OrderHistory";
+
 
 function RoutesGenerator() {
   return (

@@ -53,9 +53,9 @@ export const Activities = () => {
   }
 
   return (
-    <div className="text-section-start">
+    <div className="d-flex-flex-column-text-start">
       {tabs.map((tab, index) => (
-        <div onClick={()=> handleClickOnTabs(tab)} className={clicked === tab.route ? 'd-flex h-100 text-hover border-right-activities cursor-pointer' : 'd-flex h-100 text-hover cursor-pointer'} key={index}>
+        <div onClick={()=> handleClickOnTabs(tab)} className={clicked === tab.route ? 'd-flex h-100 activities-tab border-right-activities cursor-pointer' : 'd-flex h-100 activities-tab cursor-pointer'} key={index}>
           <div className="border-top-orders mx-2 p-2 w-100">
             {tab.icon}
             <span className="fw-bold pe-3 pt-1">{tab.title} </span>

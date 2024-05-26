@@ -3,7 +3,7 @@
 export const GiftCard = () => {
 
     return (
-      <section className="style-section text-section-start">
+      <section className="profile-container d-flex-flex-column-text-start">
       <div className="mx-3 my-4">
         <h6>کارت های هدیه</h6>
       </div>

@@ -3,7 +3,7 @@
 
 export const Messages = () => {
   return (
-    <section className="style-section text-section-start">
+    <section className="profile-container d-flex-flex-column-text-start">
       <div className="mx-4 my-3 pb-2">
         <h6 className="text-message">پیغام ها</h6>
       </div>

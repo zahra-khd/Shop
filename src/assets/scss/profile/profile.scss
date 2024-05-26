@@ -1,15 +1,12 @@
-.style-section {
+.profile-container {
     border-radius: 10px;
     border:solid 1px rgb(214, 214, 214) ;
 }
-.text-section-start {
-    display: flex;
-    flex-direction: column;
-    text-align: start;
-}
-.text-hover:hover {
+
+.activities-tab:hover {
     background: #e2e2e2;
  }
+
 .border-top-orders {
     border-top: solid 2px rgb(226, 225, 225);
 }
@@ -39,4 +36,23 @@
 }
 .border-right-activities{
     border-right: 2px solid red;
+}
+.value-orders{
+    border: 1px solid slategray;
+    border-radius: 4px;
+    padding: 3px;
+    height: 26px;
+    width: 30px;
+    margin: 0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: rgb(252, 252, 252);
+    background-color: darkgrey;
+    margin-right: 5px;
+}
+.active-order-history{
+    border-bottom: 2px solid rgb(184, 3, 3);
+    color:rgb(184, 3, 3);
 }

@@ -26,7 +26,7 @@ export const WalletDj = () => {
           className="btn btn-with border-0 w-100 d-flex justify-content-between px-3"
           key={index}
         >
-          <div className="text-section-start">
+          <div className="d-flex-flex-column-text-start">
             <p>{items.title}</p>
             <p className="text text-info">
               {items.labelIcon}

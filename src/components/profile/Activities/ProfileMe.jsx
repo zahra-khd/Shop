@@ -3,10 +3,10 @@ import { CheckId } from "../CheckId";
 export const ProfileMe = () => {
   return (
     <>
-      <section className="style-section text-section-start px-3 py-2">
+      <section className="profile-container d-flex-flex-column-text-start px-3 py-2">
         <CheckId />
       </section>
-      <section className="style-section text-section-start px-2 my-3">
+      <section className="profile-container d-flex-flex-column-text-start px-2 my-3">
         <div class="row row-cols-2 m-0  pt-2">
           <div class="col border-bottom border-start d-flex justify-content-between">
             <div> 
@@ -27,7 +27,7 @@ export const ProfileMe = () => {
           <div class="col border-bottom border-start">Column</div>
         </div>
       </section>
-      <section className="style-section text-section-start px-3 py-2">
+      <section className="profile-container d-flex-flex-column-text-start px-3 py-2">
         hefh
       </section>
     </>

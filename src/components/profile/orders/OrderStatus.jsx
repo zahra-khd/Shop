@@ -11,7 +11,11 @@ import deliveryOrder from "../../../assets/images/deliveryOrder.png";
 import routesUrl from "../../../routes/routesUrl"
 
 export const OrderStatus = () => {
+
+  
+  
   const navigate = useNavigate()
+  
 
   const orderStatusMe = [
     {
@@ -43,7 +47,7 @@ export const OrderStatus = () => {
     navigate(`${routesUrl.profileMyOrders}?activeTab=${status.query}`);
   }
 
-
+   
   return (
     <div className=" d-flex align-items-center">
       {orderStatusMe.map((orderStatusMe, index) => (

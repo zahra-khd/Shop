@@ -9,3 +9,8 @@
 .cursor-pointer {
     cursor: pointer;
 }
+.d-flex-flex-column-text-start {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
