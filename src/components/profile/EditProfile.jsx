@@ -8,7 +8,7 @@ export const EditProfile = () => {
           <span className="text-muted">09905503359</span>
       </div>
       <div>
-        <button className="btn btn-with border-0  icon-size">
+        <button className="btn btn-with border-0 icon-size-x-large">
           <i className="bi bi-pencil-square text-info"></i>
         </button>
       </div>

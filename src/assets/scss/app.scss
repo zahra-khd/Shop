@@ -1,16 +1,17 @@
-
-
-@import 'header.scss';
-@import './profile/profile.scss';
+@import "header.scss";
+@import "./profile/profile.scss";
 
 .main {
-    margin-top: 95px;
+  margin-top: 95px;
 }
 .cursor-pointer {
-    cursor: pointer;
+  cursor: pointer;
 }
 .d-flex-flex-column-text-start {
-    display: flex;
-    flex-direction: column;
-    text-align: start;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+.icon-size-x-large {
+  font-size: x-large;
 }

@@ -29,7 +29,7 @@ export const Profile = () => {
         className="btn btn-white"
         type="button"
       >
-        <i className="bi bi-person icon-size"></i>
+        <i className="bi bi-person icon-size-x-large"></i>
       </button>
       {showDropdown ? (
         <div className="dropdown-menu show start-50 rounded" ref={dropdownRef}>

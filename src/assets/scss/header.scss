@@ -1,10 +1,10 @@
 .img-header {
   height: 70px;
 }
-.input-group-addon {
+.search-header-input-group {
   position: absolute;
 }
-.span-search-header {
+.search-header-icon {
   margin-top: 19px;
   margin-right: 5px;
 }
@@ -13,20 +13,15 @@
   padding: 5px;
   color: rgb(170, 170, 170);
 }
-.input-test {
+.search-input-header {
   padding-right: 40px;
   padding-bottom: 5px;
   margin-top: 17px;
   background-color: rgb(219, 218, 218);
   color: rgb(233, 22, 22);
 }
-.icon-size {
-  font-size: x-large;
-}
-.btn-person {
-  border-radius: 15px;
-}
-.line-cart-person {
+
+.line-between-cart-person {
   font-size: x-large;
   margin-bottom: 10px;
   color: rgb(197, 197, 197);

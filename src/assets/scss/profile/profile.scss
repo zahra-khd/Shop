@@ -1,58 +1,52 @@
 .profile-container {
-    border-radius: 10px;
-    border:solid 1px rgb(214, 214, 214) ;
+  border-radius: 10px;
+  border: solid 1px rgb(214, 214, 214);
 }
 
 .activities-tab:hover {
-    background: #e2e2e2;
- }
+  background: #e2e2e2;
+}
 
-.border-top-orders {
-    border-top: solid 2px rgb(226, 225, 225);
+.activities-tab-border-top {
+  border-top: solid 2px rgb(226, 225, 225);
 }
-.border-top-activities {
-    border-top: solid 1px rgb(226, 225, 225);
+.checkId-text-warning {
+  color: rgb(255, 165, 46);
 }
-.text-color-warning{
-    color: rgb(255, 165, 46);
-   
+.checkId-text-size {
+  font-size: small;
 }
-.text-check-id{
-    font-size: small;
+
+.massages-tab {
+  border-radius: 25px;
+  padding: 5px 15px;
+  font-size: 12px;
+  background: none;
+  border: 1px solid rgb(170, 167, 167);
 }
-.border-bottom-red{
-    border-bottom: solid red 2px;
+
+.text-border-bottom-red {
+  border-bottom: solid rgb(189, 33, 33) 2px;
 }
-.button-style{
-    border-radius: 25px;
-    padding: 5px  15px;
-    font-size: 12px;
-    background: none;
-    border: 1px solid rgb(170, 167, 167);
+.activities-border-right-red {
+  border-right: 2px solid red;
 }
-.text-message{
-    border-bottom: solid rgb(189, 33, 33) 2px;
-   
+.ordersHistory-count {
+  border: 1px solid slategray;
+  border-radius: 4px;
+  padding: 3px;
+  height: 26px;
+  width: 30px;
+  margin: 0;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(252, 252, 252);
+  background-color: darkgrey;
+  margin-right: 5px;
 }
-.border-right-activities{
-    border-right: 2px solid red;
-}
-.value-orders{
-    border: 1px solid slategray;
-    border-radius: 4px;
-    padding: 3px;
-    height: 26px;
-    width: 30px;
-    margin: 0;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    color: rgb(252, 252, 252);
-    background-color: darkgrey;
-    margin-right: 5px;
-}
-.active-order-history{
-    border-bottom: 2px solid rgb(184, 3, 3);
-    color:rgb(184, 3, 3);
+.orderHistory-tab-active-red {
+  border-bottom: 2px solid rgb(184, 3, 3);
+  color: rgb(184, 3, 3);
 }

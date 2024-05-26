@@ -77,7 +77,7 @@ export const OrderHistory = () => {
             <li
               className={
                 clickTabOrder === valueOrder.value
-                  ? "nav-item d-flex pb-3 active-order-history"
+                  ? "nav-item d-flex pb-3 orderHistory-tab-active-red"
                   : "nav-item d-flex pb-3"
               }
               key={index}
@@ -89,8 +89,8 @@ export const OrderHistory = () => {
                   <div
                     className={
                       clickTabOrder === valueOrder.value
-                        ? "value-orders bg-danger"
-                        : "value-orders"
+                        ? "ordersHistory-count bg-danger"
+                        : "ordersHistory-count"
                     }
                   >
                     <p className="m-0">{valueOrder.count}</p>

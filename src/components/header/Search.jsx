@@ -14,10 +14,10 @@ export const Search = () => {
         <input
           onChange={searchInput}
           type="text"
-          className="form-control rounded-3 input-test"
+          className="form-control rounded-3 search-input-header"
           placeholder="جستجو"
         />
-        <span className="input-group-addon span-search-header">
+        <span className="search-header-input-group search-header-icon">
           <i className="bi bi-search search-icon "></i>
         </span>
       </div>

@@ -19,7 +19,7 @@ export const Header = () => {
         </div>
         <div className="col-2 d-flex justify-content-end p-3">
           <Profile />
-          <p className="line-cart-person ms-2">|</p>
+          <p className="line-between-cart-person ms-2">|</p>
           <Cart />
         </div>
       </div>
