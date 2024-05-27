@@ -1,4 +1,6 @@
+
 export const CheckId = () => {
+
   return (
     <div className="d-flex justify-content-between checkId-text-size pt-2">
       <p className="checkId-text-warning">
@@ -8,7 +10,7 @@ export const CheckId = () => {
           امکان «خرید اعتباری» نیز استفاده کنید
         </span>
       </p>
-      <p className="text text-info ">
+      <p className="text text-info">
         تایید هویت
         <i className="bi bi-chevron-compact-left"/>
       </p>

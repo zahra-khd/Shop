@@ -19,6 +19,7 @@ import { Messages } from "../components/profile/Activities/Messages";
 export const Profile = () => {
   const location = useLocation();
 
+  //رفتن به صفحات جدید
   function mainSection() {
     switch (location.pathname) {
       case routesUrl.profileMyOrders:
@@ -43,7 +44,7 @@ export const Profile = () => {
 
   return (
     <div className="row col-xl-12 col-md-12  mt-5 p-0">
-      <div className=" row col-lg-9 col-md-12 m-auto">
+      <div className="row col-lg-9 col-md-12 m-auto">
         <section className="col-lg-3 col-md-12 profile-container d-flex-flex-column-text-start p-0">
           <EditProfile />
           <WalletDj />

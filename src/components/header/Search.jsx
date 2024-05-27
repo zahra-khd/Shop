@@ -1,8 +1,11 @@
+//react
 import { useState } from "react";
 
 export const Search = () => {
+
   const [changeInputSearch, setChangeInputSearch] = useState("");
 
+//فانکشن برای نمایش تایپ داخل اینپوت
   function searchInput(e) {
     setChangeInputSearch(e.target.value);
     console.log(changeInputSearch);
@@ -18,7 +21,7 @@ export const Search = () => {
           placeholder="جستجو"
         />
         <span className="search-header-input-group search-header-icon">
-          <i className="bi bi-search search-icon "></i>
+          <i className="bi bi-search search-icon"></i>
         </span>
       </div>
       {console.log(changeInputSearch)}

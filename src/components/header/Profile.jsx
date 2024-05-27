@@ -1,26 +1,33 @@
+//rect
 import { useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
+
+//route
 import routesUrl from "../../routes/routesUrl";
+
+//utils
 import UseOutsideClick from "../../utils/hooks/UseOutsideClick";
 
 export const Profile = () => {
   const navigate = useNavigate();
-  const [showDropdown, setShowDropdown] = useState(false);
-
   const dropdownRef = useRef(undefined);
 
+  const [showDropdown, setShowDropdown] = useState(false);
+
+  //نمایش منوی پروفایل
   function openProfileDropdown() {
     setShowDropdown(true);
   }
 
+//رفتن به صفحه ی ورود به حساب کاربری 
   function goToProfileMe() {
-    //todo send user to profile
-    navigate(routesUrl.profile)
+    navigate(routesUrl.profile);
   }
 
+//بستن منوی پروفایل
   UseOutsideClick(dropdownRef, () => {
     setShowDropdown(false);
-});
+  });
 
   return (
     <div className="dropdown">

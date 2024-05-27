@@ -1,9 +1,13 @@
-import headerLogo from "../../assets/images/headerLogo.png"
+//assets
+import headerLogo from "../../assets/images/headerLogo.png";
+
+//component
 import { Cart } from "./Cart";
 import { Profile } from "./Profile";
 import { Search } from "./Search";
 
 export const Header = () => {
+
   return (
     <div className="header">
       <div className="row col-xl-12 m-0 p-0">

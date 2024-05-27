@@ -1,10 +1,4 @@
 
-
 export const ExitProfile = () => {
-
-    return (
-      <div >
-          ExitProfile
-      </div>
-    );
-  };
+  return <div>ExitProfile</div>;
+};

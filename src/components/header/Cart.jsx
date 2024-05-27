@@ -1,6 +1,6 @@
 
-
 export const Cart = () => {
+
   return (
     <div>
         <button className="btn btn-white rotate-icon" type="button">

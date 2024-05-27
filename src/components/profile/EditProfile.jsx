@@ -1,6 +1,6 @@
 
-
 export const EditProfile = () => {
+  
   return (
     <div className="d-flex justify-content-between px-3 pt-3">
       <div className="d-flex-flex-column-text-start">

@@ -1,9 +1,8 @@
 
-
 export const GiftCard = () => {
-
-    return (
-      <section className="profile-container d-flex-flex-column-text-start">
+  
+  return (
+    <section className="profile-container d-flex-flex-column-text-start">
       <div className="mx-3 my-4">
         <h6>کارت های هدیه</h6>
       </div>
@@ -12,5 +11,5 @@ export const GiftCard = () => {
         <span className="text-muted mx-3"> هدیه دادم</span>
       </div>
     </section>
-    );
-  };
+  );
+};
