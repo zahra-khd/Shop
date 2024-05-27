@@ -65,7 +65,7 @@ export const OrderHistory = () => {
 
   return (
     <>
-      <section className="profile-container d-flex-flex-column-text-start h-100">
+      <section className="profile-container d-flex-flex-column-text-start orderHistory-height">
         <div className="mx-3 my-4 d-flex justify-content-between">
           <h6>تاریخچه سفارشات</h6>
           <div className="cursor-pointer">
