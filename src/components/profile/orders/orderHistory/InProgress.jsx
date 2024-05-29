@@ -2,6 +2,7 @@ import { useState } from "react";
 
 // images
 import imgCurrentOrder from "../../../../assets/images/imgCurrentOrder.png";
+import { Modal } from "../../../Modal";
 
 
 export const InProgress = () => {
@@ -26,11 +27,8 @@ export const InProgress = () => {
       />
       <p className="pe-3">هنوز هیچ سفارشی ندادید</p>
 
-      {showModal && (
-        <div className="modal fade show d-block">
-          <div className="modal-dialog modal-dialog-centered">
-            <div className="modal-content">
-              <button
+      <Modal  showModal={showModal}>
+      <button
                 type="button"
                 className="close position-absolute top-0 start-100 translate-middle border border-secondary rounded-circle bg-white"
                 onClick={closeModal}
@@ -53,10 +51,7 @@ export const InProgress = () => {
                   <i className="bi bi-copy p-0"></i>
                 </button>
               </div>
-            </div>
-          </div>
-        </div>
-      )}
+      </Modal>
     </div>
   );
 };
