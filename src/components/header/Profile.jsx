@@ -7,6 +7,7 @@ import routesUrl from "../../routes/routesUrl";
 
 //utils
 import UseOutsideClick from "../../utils/hooks/UseOutsideClick";
+import { Dropdown } from "../Dropdown";
 
 export const Profile = () => {
   const navigate = useNavigate();
@@ -19,12 +20,12 @@ export const Profile = () => {
     setShowDropdown(true);
   }
 
-//رفتن به صفحه ی ورود به حساب کاربری 
+  //رفتن به صفحه ی ورود به حساب کاربری
   function goToProfileMe() {
     navigate(routesUrl.profile);
   }
 
-//بستن منوی پروفایل
+  //بستن منوی پروفایل
   UseOutsideClick(dropdownRef, () => {
     setShowDropdown(false);
   });
@@ -38,15 +39,14 @@ export const Profile = () => {
       >
         <i className="bi bi-person icon-size-x-large"></i>
       </button>
-      {showDropdown ? (
-        <div className="dropdown-menu show start-50 rounded" ref={dropdownRef}>
-          <span className="dropdown-item text-muted" onClick={goToProfileMe}>
-            ورود به حساب کاربری
-          </span>
-          <hr />
-          <span className="dropdown-item text-muted">خروج از حساب کاربری</span>
-        </div>
-      ) : null}
+      <Dropdown showDropdown={showDropdown}>
+        <span className="dropdown-item text-muted" onClick={goToProfileMe}>
+          ورود به حساب کاربری
+        </span>
+        <hr />
+        <span className="dropdown-item text-muted">خروج از حساب کاربری</span>
+        
+      </Dropdown>
     </div>
   );
 };

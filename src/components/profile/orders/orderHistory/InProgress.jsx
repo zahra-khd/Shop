@@ -33,7 +33,6 @@ export const InProgress = () => {
                 className="close position-absolute top-0 start-100 translate-middle border border-secondary rounded-circle bg-white"
                 onClick={closeModal}
               >
-                <span aria-hidden="true">&times;</span>
               </button>
               <div className="modal-header border-0 justify-content-center fw-bold ps-5">
                 <p className="modal-title me-5">
